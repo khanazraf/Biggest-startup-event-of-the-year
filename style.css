@@ -1,0 +1,62 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color: beige;
+}
+
+hr {
+  border-color: whitesmoke;
+  border-width: 5rem;
+}
+
+.buffer{
+  height: 2rem
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  /* text-transform: uppercase; */
+}
+
+.btn-primary {
+  background-color: black;
+  border-color:  black;
+  /* border-width: 7px; */
+}
+
+.btn-primary:hover {
+  background-color: whitesmoke;
+  border-color: whitesmoke;
+  color: black;
+  border-width: 14px;
+}
+
+.btn-check:active + .btn-primary:focus,
+.btn-check:checked + .btn-primary:focus,
+.btn-primary.active:focus,
+.btn-primary:active:focus,.show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(245, 245, 245, 0.801);
+}
+
+.btn-primary:focus {
+  background-color: whitesmoke;
+  border-color: whitesmoke;
+  color: black;
+  box-shadow: 0 0 0 0.75rem rgba(252, 17, 17, 0)
+}
+
+.btn-xl {
+  padding:1rem 2rem; /* padding:(height)rem (width)rem */
+}
